@@ -1,0 +1,222 @@
+JavaScript 1
+1. Name the three ways to declare a variable?
+
+var, let ,const
+
+
+2. Which of the three variable declarations should you avoid and why?
+
+
+ Var   
+
+3. What rules should you follow when naming variables?
+
+
+using english language,Cmel Case , PascalCase, Snake-case-varible
+
+
+4. What should you look out for when using the + operator with numbers and strings?
+
+
+	Operator with strings is used to combine words.  When used with numbers it adds values
+
+
+5. How does the % operator work?
+
+
+remainder
+
+
+6. Explain the difference between == and ===.
+
+
+	=== is for strict equality check, == is for non-strict equality check
+
+
+7. When would you receive a NaN result?
+
+
+	string/number
+
+
+8. How do you increment and decrement a number?
+
+
+	i++;
+	--;
+
+9. Explain the difference between prefixing and post-fixing increment/decrement operators.
+
+
+	prefix = incremnet then returns value 
+	prefix = incremnet then returns value 
+
+
+10. What is operator precedence and how is it handled in JS?
+
+
+	tables
+
+
+11. How do you log information to the console?
+
+
+    console.log();
+
+
+12. What does unary plus operator do to string representations of integers?
+
+
+	Returns NaN
+
+
+13. What are the eight data types in JavaScript?
+
+
+	 primitive -> Numbers, BigInt, boolean, null, undefined,  strings, 
+	and Objects
+
+
+14. Which data type is NOT primitive?
+
+
+	object
+
+
+15. What is the relationship between null and undefined?
+
+
+	undefined when the the varible si not intialized. Null is a non-existing object
+
+
+16. What is the difference between single, double, and backtick quotes for strings?
+
+
+	single are double are same. , backticks can used to include  ${variable} in the string.
+
+
+17. What is the term for embedding variables/expressions in a string?
+
+Template literals.
+
+18. Which type of quote lets you embed variables/expressions in a string?
+
+	``
+
+19. How do you embed variables/expressions in a string?
+
+	${}
+
+20. How do you escape characters in a string?
+
+		\
+
+21. What is the difference between the slice/substring/substr string methods?
+
+		sentence.slice(-7); slice accepts negative value;
+
+		sentence.substring(12, 0)  It will swap the parameters
+
+
+22. What are the three logical operators and what do they stand for?
+
+
+
+|| && !
+
+
+23. What are the comparison operators?
+
+
+== <=  >=  > < ===
+
+
+24. What are truthy and falsy values?
+
+
+	True values of boolean types are truthy values.
+	False values of boolean types are are falsy values.
+
+25. What are the falsy values in JavaScript?
+
+
+	undefined, null, NaN, 0, empty string and false
+
+
+26. What are conditionals?
+
+	if else
+
+27. What is the syntax for an if/else conditional?
+
+
+	if(condition)
+	{experssion}
+	else{
+	expression}
+}
+28. What is the syntax for a switch statement?
+
+
+	swtch(statment)
+	{
+	
+	case 1: 
+	expression;
+	Break;
+	case 2: 
+	expression;
+	Break;
+	case 3: 
+	expression;
+	Break;
+	-----
+	-----
+	}
+
+
+29. What is the syntax for a ternary operator?
+
+
+(condition) ? expressionT: expressionF 
+
+
+30. What is nesting?
+
+
+	Function inside the function
+
+31. What are functions useful for?
+
+
+
+	For repeating a specific piece of code
+
+32. How do you invoke a function?
+
+
+    	functionName();
+
+33. What are anonymous functions?
+
+
+	functions without any names
+
+
+34. What is function scope?
+		function func{
+		//scope
+		//scope
+		//scope
+				}
+35. What are return values?
+
+
+   returns the value in the function
+
+
+36. What are arrow functions?
+
+
+	They are like lamba expression minizium line of code
+	

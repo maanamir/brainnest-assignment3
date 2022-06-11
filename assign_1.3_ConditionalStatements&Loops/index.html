@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <input type="text" placeholder="Enter first integer" onblur="getVal()"> -->
+    
+
+    <script>
+      // a) Write a JavaScript program that accepts two integers and displays the larger of the two.
+      {
+         let integer1 = window.prompt("Enter first integer");
+         let integer2 = window.prompt("Enter second integer");
+         if (integer1 > integer2) {
+           alert(`${integer1} is greater to ${integer2}`);
+         } else if (integer2 > integer1) {
+           alert(`${integer2} is greater to ${integer1}`);
+         } else {
+           alert(`${integer2} is equal to ${integer1}`);
+         }
+      }
+
+      // b) Write a JavaScript program that checks whether an integer is an even or an odd number.
+      let integer1 = window.prompt("Enter the integer to check either its even or an odd number: ");
+      (integer1%2==0) ? alert(`${integer1} is Even`) : alert(`${integer1} is Odd`);
+    </script>
+  </body>
+</html>
